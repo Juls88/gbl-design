@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,36 +9,55 @@
 
 body {
     background: #fff;
-    padding-top: 6em;
+    padding-top: 4.7em;
 }
 
 header {
-    color: #464646;
+    color: #b200c3;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    padding: .7em;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.6em;
+    padding-top: 12px;
+    font-family: 'Carter One', sans-serif;
+    font-size: 1.8em;
     text-align: center;
 }
 
-.container-audio {
-    background: #f6f6f6;
+.container-name {
+    background: #505050;
+    height: 15%;
     width: 36%;
-    height: 20vw;
-    text-align: center;
-    border-radius: 5pt;
+    padding-top: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+}
+
+.container-name p {
+    color: #fff;
+    font-size: 1.3em;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container-audio {
+    background: #505050;
+    width: 36%;
+    height: 20vw;
+    text-align: center;
+    padding: 0 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container-audio .button-container-audio {
-    color: #464646;
-    font-size: 1.6em;
+    color: #fff;
+    font-size: 3em;
     background: none;
     border: none;
     outline: none;
@@ -45,39 +65,64 @@ header {
 }
 
 .container-advice {
-    background: #f6f6f6;
-    color: #464646;
+    background: #f00;
     height: 20%;
     width: 36%;
     padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Verdana;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.24);
-    border-radius: 5pt;
-    font-weight: 100
-    ;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
 }
+
+.container-audio .button-container-audio-left {
+    color: #fff;
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-advice .button-container-advice {
+    color: #fff;
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-audio .button-container-audio-right {
+    color: #fff;
+    font-size: 2.5em;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
 
 footer {
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 1em;
+    padding-bottom: 1em;
     display: flex;
     justify-content: center;
 }
 
 footer .button-menu {
     color: #b5b5b5;
-    font-size: 1.6em;
+    font-size: 1.8em;
     border: none;
     outline: none;
     background: none;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
+    margin-left: 3em;
+    margin-right: 3em;
     cursor: pointer;
 }
 
