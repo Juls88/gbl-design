@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -12,80 +12,58 @@ body {
 
 header {
     color: #b200c3;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 12px;
-    font-family: 'Carter One', sans-serif;
-    font-size: 1.8em;
+    font-family: 'Changa', sans-serif;
+    font-size: 2em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .container-name {
-    background: #505050;
-    height: 15%;
+    background: #f9f9f9;
     width: 36%;
-    padding-top: 1em;
+    padding-top: 1.2em;
     display: flex;
-    align-items: center;
     justify-content: center;
     border-top-left-radius: 10pt;
     border-top-right-radius: 10pt;
 }
 
 .container-name p {
-    color: #fff;
+    color: #808080;
     font-size: 1.3em;
     font-family: Arial;
     font-weight: bold;
-    text-decoration: underline;
+    text-transform: capitalize;
 }
 
 .container-audio {
-    background: #505050;
+    background: #f9f9f9;
     width: 36%;
     height: 20vw;
     text-align: center;
-    padding: 0 2em;
+    padding: 0 2.5em;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .container-audio .button-container-audio {
-    color: #fff;
-    font-size: 3em;
+    color: #808080;
+    font-size: 2.8em;
     background: none;
     border: none;
     outline: none;
     cursor: pointer;
-}
-
-.container-advice {
-    background: #f00;
-    height: 20%;
-    width: 36%;
-    padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom-left-radius: 10pt;
-    border-bottom-right-radius: 10pt;
 }
 
 .container-audio .button-container-audio-left {
-    color: #fff;
-    font-size: 2.5em;
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-.container-advice .button-container-advice {
-    color: #fff;
-    font-size: 2.5em;
+    color: #808080;
+    font-size: 2.8em;
     background: none;
     border: none;
     outline: none;
@@ -93,8 +71,29 @@ header {
 }
 
 .container-audio .button-container-audio-right {
+    color: #808080;
+    font-size: 2.8em;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container-advice {
+    background: #ff4000;
+    width: 36%;
+    padding: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 10pt;
+    border-bottom-right-radius: 10pt;
+    cursor: pointer;
+}
+
+.container-advice .button-container-advice {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 2em;
     background: none;
     border: none;
     outline: none;
@@ -102,7 +101,7 @@ header {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
